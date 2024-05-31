@@ -10,6 +10,7 @@ body {
   color: #343a40;
   margin: 0;
   padding: 0;
+  z-index: 1000;
 }
 .modal-content {
   font-family: 'Montserrat', sans-serif;
@@ -27,7 +28,7 @@ body {
 
 footer {
   margin-top: 5px;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .container {
@@ -145,3 +146,36 @@ h6 {
     font-size: 1.25rem;
   }
 }
+
+.input-group .form-control {
+  margin-right: 10px;
+}
+
+.input-group .form-control:last-child {
+  margin-right: 0;
+}
+
+/*
+.input-group {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.input-group .form-control {
+  width: calc(100% - 200px);
+  max-width: 500px;
+  margin-right: 10px;
+}
+
+.input-group .btn {
+  width: 100px;
+}
+*/
